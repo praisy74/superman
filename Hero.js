@@ -7,7 +7,7 @@ class Hero {
 		};
 		
 		this.r=r;
-		this.image=loadImage("superhero1.png");
+		this.image=loadImage("superhero.png");
 		this.body=Bodies.circle(x, y, (this.r)/2, options);
 		World.add(world, this.body);
 
